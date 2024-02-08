@@ -1,0 +1,78 @@
+body{
+    background-image: image-set('background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+/* Formtação do conteiner */
+.conteudo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+/* Formatação do bloco de login */
+.cardLogin{
+    width: 25em;
+    background-color: #00000062;
+    backdrop-filter: blur(4px);
+    border-radius: 1em;
+    padding: 2em;
+}
+/* Formatação do título do bloco de login */
+.titulo{
+    font-size: 1.5em;
+    text-align: center;
+    color: #fff;
+}
+/* Formatação do bloco de input */
+.input-group{
+    padding-top: 0.5em;
+}
+/* Formatação do label do bloco de input */
+.input-group-text{
+    width: 5em;
+    background-color: #00000062;
+    color: #fff;
+    border: none;
+}
+/* Formatação da área de input */
+.input{
+    border-radius: 0.5em;
+    border: none;
+}
+/* Formatação do input */
+.form-control{
+    background-color: #00000062;
+    color: #fff;
+    border: none;
+}
+/* Formatação do hr divisor */
+.divisao{
+    color: #fff;
+}
+/* Formatação do bloco de botões */
+.botoes{
+    padding: 0.5em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+/* Formatação dos botões */
+.botao{
+    width: 90%;
+    transition: 0.25s;
+}
+.botao:hover{
+    width: 100%;
+}
+/* Formtação do texto 'ou' */
+.texto{
+    text-align: center;
+    color: #fff;
+}
