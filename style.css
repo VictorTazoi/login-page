@@ -6,7 +6,11 @@ body{
     background-size:cover;
 }
 
-/* Formtação do conteiner */
+.navbar{
+    background-color: #00000062;
+    backdrop-filter: blur(4px);
+}
+/* Formatação do conteiner */
 .conteudo{
     display: flex;
     flex-direction: row;
